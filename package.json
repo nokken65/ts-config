@@ -20,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/nokken65/ts-config/issues"
   },
-  "homepage": "https://github.com/nokken65/ts-config#readme"
+  "homepage": "https://github.com/nokken65/ts-config#readme",
+  "keywords": [
+    "typescript",
+    "config",
+    "tsconfig"
+  ]
 }
