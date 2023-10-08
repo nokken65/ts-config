@@ -18,15 +18,52 @@ pnpm add @nokken65/ts-config -D
 
 ## Usage
 
+React config
+
 ```js
 // tsconfig.json
 {
-  "extends": "@crashmax/tsconfig",
-  "compilerOptions": {
-    "outDir": "dist"
-  },
+  "extends": "@nokken65/tsconfig/react",
   "include": [
     "src"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
+```
+
+Vite config
+
+```js
+// tsconfig.node.json
+{
+  "extends": "@nokken65/tsconfig/vite",
+  "include": [
+    "vite.config.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
+```
+
+Base config
+
+```js
+// tsconfig.json
+{
+  "extends": "@nokken65/tsconfig",
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "jsx": "react-jsx"
+  }
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules"
   ]
 }
 ```
