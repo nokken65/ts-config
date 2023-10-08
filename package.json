@@ -1,0 +1,24 @@
+{
+  "name": "@nokken65/ts-config",
+  "version": "1.0.0",
+  "private": false,
+  "description": "TypeScript tsconfig.json",
+  "main": "tsconfig.json",
+  "files": [
+    "tsconfig.json",
+    "react.json",
+    "vite.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nokken65/ts-config.git"
+  },
+  "author": {
+    "name": "Denis Ermolin"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nokken65/ts-config/issues"
+  },
+  "homepage": "https://github.com/nokken65/ts-config#readme"
+}
